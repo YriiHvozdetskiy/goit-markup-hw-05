@@ -8,6 +8,7 @@
     --header-logo-span: #000000;
     --hero-footer-bg-color: #2F303A;
     --icon-current-color: #AFB1B8;
+    --time-distribution-function:cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 html {
@@ -178,7 +179,20 @@ button {
 }
 
 .nav .link.active {
+    position: relative;
     color: var(--accent-color);
+}
+
+.nav .link.active::after{
+    position: absolute;
+    bottom: -1px;
+    left: 0;
+    content: "";
+    height: 4px;
+    width: 100%;
+    background:var(--accent-color);
+    border-radius:2px
+
 }
 
 /* ======= Студія / hero css =======*/
