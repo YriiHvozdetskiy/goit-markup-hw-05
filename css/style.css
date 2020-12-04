@@ -8,7 +8,7 @@
     --header-logo-span: #000000;
     --hero-footer-bg-color: #2F303A;
     --icon-current-color: #AFB1B8;
-    --time-distribution-function:cubic-bezier(0.4, 0, 0.2, 1);
+    --time-distribution-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 html {
@@ -156,7 +156,7 @@ button {
     width: 16px;
     height: 12px;
     margin-right: 10px;
-    
+
     fill: currentColor;
 }
 
@@ -183,15 +183,16 @@ button {
     color: var(--accent-color);
 }
 
-.nav .link.active::after{
+.nav .link.active::after {
     position: absolute;
     bottom: -1px;
     left: 0;
     content: "";
     height: 4px;
     width: 100%;
-    background:var(--accent-color);
-    border-radius:2px
+    border-radius: 2px;
+    
+    background: var(--accent-color);
 
 }
 
@@ -403,7 +404,7 @@ button {
     color: var(--white-text-color);
 }
 
-.network-icon{
+.network-icon {
     fill: currentColor;
 }
 
@@ -447,16 +448,16 @@ button {
     box-sizing: border-box;
     border-radius: 4px;
 
-    color:var(--icon-current-color);
+    color: var(--icon-current-color);
 }
 
 .company-link:hover,
 .company-link:focus {
     border-color: var(--accent-color);
-    color:var(--accent-color);
+    color: var(--accent-color);
 }
 
-.company-icon{
+.company-icon {
     fill: currentColor;
 }
 
