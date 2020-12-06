@@ -50,7 +50,12 @@
                 Эффективные решения<br />
                 для вашего бизнеса
             </h1>
-            <button class="btn" type="submit">Заказать услугу</button>
+            <button class="btn" type="submit" data-modal-open>Заказать услугу</button>
+            <div class="backdrop is-hidden" data-modal>
+                <div class="modal">
+                    <button class="btn-modal-close" data-modal-close></button>
+                </div>
+            </div>
         </section>
         <!-- =========== benefits =========== -->
         <section class="benefits">
@@ -168,11 +173,9 @@
                                             <use href="./images/system/sprite.svg#linkedin"></use>
                                         </svg>
                                     </a>
-
                                 </li>
                             </ul>
                         </div>
-
                     </li>
                     <li class="item">
                         <img class="img" src="./images/content/frontend.jpg" alt="Frontend Developer" width="270" />
@@ -207,11 +210,9 @@
                                             <use href="./images/system/sprite.svg#linkedin"></use>
                                         </svg>
                                     </a>
-
                                 </li>
                             </ul>
                         </div>
-
                     </li>
                     <li class="item">
                         <img class="img" src="./images/content/marketing.jpg" alt="Marketing" width="270" />
@@ -250,7 +251,6 @@
                                 </li>
                             </ul>
                         </div>
-
                     </li>
                     <li class="item">
                         <img class="img" src="./images/content/ulDesigner.jpg" alt="UI Designer" width="270" />
@@ -285,11 +285,9 @@
                                             <use href="./images/system/sprite.svg#linkedin"></use>
                                         </svg>
                                     </a>
-
                                 </li>
                             </ul>
                         </div>
-
                     </li>
                 </ul>
             </div>
@@ -391,6 +389,7 @@
             </div>
         </div>
     </footer>
+    <script src="./Js/modal.js"></script>
 </body>
 
 </html>
