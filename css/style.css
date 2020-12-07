@@ -262,6 +262,10 @@ button {
     fill: currentColor;
 }
 
+.header .link{
+    transition: color 250ms var(--time-distribution-function) ;
+}
+
 .header .link:hover,
 .header .link:focus {
     color: var(--accent-color);
